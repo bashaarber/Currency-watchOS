@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0B7AEDB23DB9D44009BCB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AEDA23DB9D44009BCB19 /* AppDelegate.swift */; };
+		A0B7AEDD23DB9D44009BCB19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AEDC23DB9D44009BCB19 /* SceneDelegate.swift */; };
+		A0B7AEDF23DB9D44009BCB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AEDE23DB9D44009BCB19 /* ViewController.swift */; };
+		A0B7AEE223DB9D44009BCB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AEE023DB9D44009BCB19 /* Main.storyboard */; };
+		A0B7AEE423DB9D48009BCB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AEE323DB9D48009BCB19 /* Assets.xcassets */; };
+		A0B7AEE723DB9D48009BCB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AEE523DB9D48009BCB19 /* LaunchScreen.storyboard */; };
+		A0B7AEEC23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A0B7AEEB23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0B7AEF223DB9D48009BCB19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AEF023DB9D48009BCB19 /* Interface.storyboard */; };
+		A0B7AEF423DB9D49009BCB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AEF323DB9D49009BCB19 /* Assets.xcassets */; };
+		A0B7AEFB23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0B7AEFA23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0B7AF0023DB9D49009BCB19 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AEFF23DB9D49009BCB19 /* InterfaceController.swift */; };
+		A0B7AF0223DB9D49009BCB19 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AF0123DB9D49009BCB19 /* ExtensionDelegate.swift */; };
+		A0B7AF0423DB9D4A009BCB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7AF0323DB9D4A009BCB19 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B7AEED23DB9D48009BCB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7AECF23DB9D44009BCB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B7AEEA23DB9D48009BCB19;
+			remoteInfo = "KurrencyWatch WatchKit App";
+		};
+		A0B7AEFC23DB9D49009BCB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7AECF23DB9D44009BCB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B7AEF923DB9D49009BCB19;
+			remoteInfo = "KurrencyWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0B7AF0B23DB9D4A009BCB19 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0B7AEFB23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7AF0F23DB9D4A009BCB19 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A0B7AEEC23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0B7AED723DB9D44009BCB19 /* KurrencyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurrencyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7AEDA23DB9D44009BCB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0B7AEDC23DB9D44009BCB19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0B7AEDE23DB9D44009BCB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0B7AEE123DB9D44009BCB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0B7AEE323DB9D48009BCB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B7AEE623DB9D48009BCB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0B7AEE823DB9D48009BCB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B7AEEB23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KurrencyWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7AEF123DB9D48009BCB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A0B7AEF323DB9D49009BCB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B7AEF523DB9D49009BCB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B7AEFA23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KurrencyWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7AEFF23DB9D49009BCB19 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A0B7AF0123DB9D49009BCB19 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A0B7AF0323DB9D4A009BCB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B7AF0523DB9D4A009BCB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B7AED423DB9D44009BCB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7AEF723DB9D49009BCB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B7AECE23DB9D44009BCB19 = {
+			isa = PBXGroup;
+			children = (
+				A0B7AED923DB9D44009BCB19 /* KurrencyWatch */,
+				A0B7AEEF23DB9D48009BCB19 /* KurrencyWatch WatchKit App */,
+				A0B7AEFE23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension */,
+				A0B7AED823DB9D44009BCB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B7AED823DB9D44009BCB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AED723DB9D44009BCB19 /* KurrencyWatch.app */,
+				A0B7AEEB23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app */,
+				A0B7AEFA23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B7AED923DB9D44009BCB19 /* KurrencyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AEDA23DB9D44009BCB19 /* AppDelegate.swift */,
+				A0B7AEDC23DB9D44009BCB19 /* SceneDelegate.swift */,
+				A0B7AEDE23DB9D44009BCB19 /* ViewController.swift */,
+				A0B7AEE023DB9D44009BCB19 /* Main.storyboard */,
+				A0B7AEE323DB9D48009BCB19 /* Assets.xcassets */,
+				A0B7AEE523DB9D48009BCB19 /* LaunchScreen.storyboard */,
+				A0B7AEE823DB9D48009BCB19 /* Info.plist */,
+			);
+			path = KurrencyWatch;
+			sourceTree = "<group>";
+		};
+		A0B7AEEF23DB9D48009BCB19 /* KurrencyWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AEF023DB9D48009BCB19 /* Interface.storyboard */,
+				A0B7AEF323DB9D49009BCB19 /* Assets.xcassets */,
+				A0B7AEF523DB9D49009BCB19 /* Info.plist */,
+			);
+			path = "KurrencyWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		A0B7AEFE23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AEFF23DB9D49009BCB19 /* InterfaceController.swift */,
+				A0B7AF0123DB9D49009BCB19 /* ExtensionDelegate.swift */,
+				A0B7AF0323DB9D4A009BCB19 /* Assets.xcassets */,
+				A0B7AF0523DB9D4A009BCB19 /* Info.plist */,
+			);
+			path = "KurrencyWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B7AED623DB9D44009BCB19 /* KurrencyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7AF1023DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch" */;
+			buildPhases = (
+				A0B7AED323DB9D44009BCB19 /* Sources */,
+				A0B7AED423DB9D44009BCB19 /* Frameworks */,
+				A0B7AED523DB9D44009BCB19 /* Resources */,
+				A0B7AF0F23DB9D4A009BCB19 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B7AEEE23DB9D48009BCB19 /* PBXTargetDependency */,
+			);
+			name = KurrencyWatch;
+			productName = KurrencyWatch;
+			productReference = A0B7AED723DB9D44009BCB19 /* KurrencyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B7AEEA23DB9D48009BCB19 /* KurrencyWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7AF0C23DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch WatchKit App" */;
+			buildPhases = (
+				A0B7AEE923DB9D48009BCB19 /* Resources */,
+				A0B7AF0B23DB9D4A009BCB19 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B7AEFD23DB9D49009BCB19 /* PBXTargetDependency */,
+			);
+			name = "KurrencyWatch WatchKit App";
+			productName = "KurrencyWatch WatchKit App";
+			productReference = A0B7AEEB23DB9D48009BCB19 /* KurrencyWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A0B7AEF923DB9D49009BCB19 /* KurrencyWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7AF0823DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch WatchKit Extension" */;
+			buildPhases = (
+				A0B7AEF623DB9D49009BCB19 /* Sources */,
+				A0B7AEF723DB9D49009BCB19 /* Frameworks */,
+				A0B7AEF823DB9D49009BCB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KurrencyWatch WatchKit Extension";
+			productName = "KurrencyWatch WatchKit Extension";
+			productReference = A0B7AEFA23DB9D49009BCB19 /* KurrencyWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B7AECF23DB9D44009BCB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arber Basha";
+				TargetAttributes = {
+					A0B7AED623DB9D44009BCB19 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A0B7AEEA23DB9D48009BCB19 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A0B7AEF923DB9D49009BCB19 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A0B7AED223DB9D44009BCB19 /* Build configuration list for PBXProject "KurrencyWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B7AECE23DB9D44009BCB19;
+			productRefGroup = A0B7AED823DB9D44009BCB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B7AED623DB9D44009BCB19 /* KurrencyWatch */,
+				A0B7AEEA23DB9D48009BCB19 /* KurrencyWatch WatchKit App */,
+				A0B7AEF923DB9D49009BCB19 /* KurrencyWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B7AED523DB9D44009BCB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7AEE723DB9D48009BCB19 /* LaunchScreen.storyboard in Resources */,
+				A0B7AEE423DB9D48009BCB19 /* Assets.xcassets in Resources */,
+				A0B7AEE223DB9D44009BCB19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7AEE923DB9D48009BCB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7AEF423DB9D49009BCB19 /* Assets.xcassets in Resources */,
+				A0B7AEF223DB9D48009BCB19 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7AEF823DB9D49009BCB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7AF0423DB9D4A009BCB19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B7AED323DB9D44009BCB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7AEDF23DB9D44009BCB19 /* ViewController.swift in Sources */,
+				A0B7AEDB23DB9D44009BCB19 /* AppDelegate.swift in Sources */,
+				A0B7AEDD23DB9D44009BCB19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7AEF623DB9D49009BCB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7AF0223DB9D49009BCB19 /* ExtensionDelegate.swift in Sources */,
+				A0B7AF0023DB9D49009BCB19 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B7AEEE23DB9D48009BCB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B7AEEA23DB9D48009BCB19 /* KurrencyWatch WatchKit App */;
+			targetProxy = A0B7AEED23DB9D48009BCB19 /* PBXContainerItemProxy */;
+		};
+		A0B7AEFD23DB9D49009BCB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B7AEF923DB9D49009BCB19 /* KurrencyWatch WatchKit Extension */;
+			targetProxy = A0B7AEFC23DB9D49009BCB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0B7AEE023DB9D44009BCB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B7AEE123DB9D44009BCB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0B7AEE523DB9D48009BCB19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B7AEE623DB9D48009BCB19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0B7AEF023DB9D48009BCB19 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B7AEF123DB9D48009BCB19 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0B7AF0623DB9D4A009BCB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0B7AF0723DB9D4A009BCB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B7AF0923DB9D4A009BCB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				INFOPLIST_FILE = "KurrencyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A0B7AF0A23DB9D4A009BCB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				INFOPLIST_FILE = "KurrencyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A0B7AF0D23DB9D4A009BCB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				IBSC_MODULE = KurrencyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "KurrencyWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A0B7AF0E23DB9D4A009BCB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				IBSC_MODULE = KurrencyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "KurrencyWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A0B7AF1123DB9D4A009BCB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				INFOPLIST_FILE = KurrencyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B7AF1223DB9D4A009BCB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPD86YV292;
+				INFOPLIST_FILE = KurrencyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ab.KurrencyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B7AED223DB9D44009BCB19 /* Build configuration list for PBXProject "KurrencyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7AF0623DB9D4A009BCB19 /* Debug */,
+				A0B7AF0723DB9D4A009BCB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7AF0823DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7AF0923DB9D4A009BCB19 /* Debug */,
+				A0B7AF0A23DB9D4A009BCB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7AF0C23DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7AF0D23DB9D4A009BCB19 /* Debug */,
+				A0B7AF0E23DB9D4A009BCB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7AF1023DB9D4A009BCB19 /* Build configuration list for PBXNativeTarget "KurrencyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7AF1123DB9D4A009BCB19 /* Debug */,
+				A0B7AF1223DB9D4A009BCB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0B7AECF23DB9D44009BCB19 /* Project object */;
+}
